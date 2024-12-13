@@ -1,4 +1,4 @@
-# Adidas-Sales-Analysis
+# Adidas-Sales-Analysis Using SQL
 Here’s a detailed explanation of your SQL analysis project for your `README.md` file on GitHub:
 
 ---
@@ -168,4 +168,95 @@ ORDER BY CAST(m.month_order AS UNSIGNED);
 - **Database**: MySQL
 - **Platform**: SQL Workbench / Power BI for data visualization
 - **Techniques**: Data transformation, trend analysis, and SQL-based reporting
+
+Here's a detailed README file tailored for your GitHub project, documenting your analysis:
+
+---
+
+# Adidas Sales Analysis Using Python
+
+## Project Overview
+This project provides an in-depth analysis of the Adidas US sales dataset. It utilizes Python for data cleaning, transformation, and visualization to extract meaningful insights and trends. The dataset includes sales records for various regions, states, and products across different sales methods.
+
+## Dataset Description
+The dataset contains sales records with the following columns:
+- **Retailer, Retailer ID, Invoice Date**
+- **Region, State, City**
+- **Product, Price per Unit, Units Sold**
+- **Total Sales, Operating Profit, Operating Margin**
+- **Sales Method**
+
+### Key Steps in Data Preprocessing:
+1. **Dropped Null Values**: Ensured data integrity by removing any records with missing values.
+2. **Renamed Columns**: Standardized column names for readability and ease of use.
+3. **Data Type Conversion**: Corrected column data types to enable numerical computations and date manipulations.
+4. **Outlier Removal**: Removed unwanted rows that could affect the analysis.
+5. **Added Year and Month Columns**: Extracted year and month from the invoice dates for temporal analysis.
+
+## Analysis and Insights
+
+### 1. **Total Records in the Dataset**
+   - The dataset consists of **9,647 records** after cleaning.
+
+### 2. **Highest Sales and Profit by Region**
+   - **Region with the Highest Sales**: **West** ($269,943,182)
+   - **Region with the Highest Operating Profit**: **West** ($89,609,516)
+   - **Method**: Grouped data by `Region` and calculated the sum of `Total Sales` and `Operating Profit`.
+
+### 3. **Highest Sales and Profit by State**
+   - **State with the Highest Sales**: **California** ($60,174,133)
+   - **State with the Highest Operating Profit**: **California** ($19,301,183)
+   - **Method**: Grouped data by `State` and calculated the sum of `Total Sales` and `Operating Profit`.
+
+### 4. **Product Distribution**
+   - Visualization of product distribution shows a breakdown of product categories by percentage.
+   - **Key Insight**: Balanced sales distribution across product categories.
+   - **Visualization**: Pie chart of product counts.
+
+### 5. **Sales Method Analysis**
+   - **Sales Channels**: Products are sold via three methods - In-store, Online, and Outlet.
+   - **Product Sales by Method**:
+     - In-store: **289-291 records per product**
+     - Online: **813-816 records per product**
+     - Outlet: **502-505 records per product**
+   - **Visualization**: A table showcasing sales per product by sales method.
+
+### 6. **State-wise Product Analysis**
+   - State-level product sales data highlights the cities ordering specific products and their quantities.
+   - **Visualization**: Cross-tabulation of `Product` and `City`.
+
+### 7. **Sales by Sales Method**
+   - Percentage of sales by method:
+     - **In-store**: 33.33%
+     - **Online**: 33.33%
+     - **Outlet**: 33.33%
+   - **Visualization**: Pie chart of sales method distribution.
+
+### 8. **Temporal Analysis**
+   - Added **Year** and **Month** columns from `Invoice Date` for tracking trends over time.
+   - **Key Insight**: Seasonal variations in sales can be observed.
+
+---
+
+## Visualizations
+1. **Region-wise Sales and Profit**: Bar charts showcasing sales and profit for each region.
+2. **State-wise Sales and Profit**: Bar charts for detailed state-level insights.
+3. **Product Distribution**: Pie chart of product percentages.
+4. **Sales Method Distribution**: Pie chart of sales percentages by sales method.
+5. **State-wise Product Sales**: Cross-tabulated heatmap of products sold in each state.
+
+## Key Libraries Used
+- **Pandas**: For data manipulation and analysis.
+- **Matplotlib**: For visualizations.
+- **Seaborn**: For advanced statistical plots.
+
+## How to Run
+1. Clone this repository.
+2. Install required libraries using `pip install -r requirements.txt`.
+3. Run the analysis script: `python analysis.py`.
+
+## Conclusion
+This analysis highlights key trends in Adidas US sales data, enabling better decision-making for inventory management, regional focus, and sales strategy optimization.
+
+---
 
