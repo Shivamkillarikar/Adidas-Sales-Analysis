@@ -1,4 +1,8 @@
 use adidas;
+create table adidasUS(Retailer varchar(50),RetailerId int,Invoice_Date varchar(30),Region varchar(30),State varchar(30),City varchar(30),
+    Product varchar(30), Price_Per_Unit int, Units_Sold int, Total_Sales int, Operating_Profit int, Operating_Margin double, Sales_Method varchar(30));
+
+    
 select * from adidasUS;
 
 #Top 3 selling Product
