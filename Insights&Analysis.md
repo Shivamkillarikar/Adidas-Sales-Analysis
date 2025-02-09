@@ -82,7 +82,13 @@
 
 ## Product Distribution  
 - Sales are evenly distributed across product categories, with **Men's Street Footwear** and **Women's Apparel** leading the pack.  
-- Each product category has a balanced contribution across states, with no single product dominating all regions.  
+- Each product category has a balanced contribution across states, with no single product dominating all regions.
+
+##Products Sold Through:
+-In-store: 290+ transactions per product.
+-Online: 815+ transactions per product.
+-Outlet: 500+ transactions per product.
+-Key Insight: Online sales contribute significantly, highlighting the importance of digital strategies.
 
 ---
 
@@ -105,4 +111,14 @@
 - Address the low sales in **January** by introducing discounts or new product launches to boost demand.  
 
 ## Product Diversification  
-- While **Men's Street Footwear** and **Women's Apparel** are strong performers, consider diversifying the product range to reduce dependency on a few categories.  
+- While **Men's Street Footwear** and **Women's Apparel** are strong performers, consider diversifying the product range to reduce dependency on a few categories.
+- Enhance Footwear Strategies – Since footwear dominates sales, launching limited editions, collaborations, and seasonal offers can further boost sales.
+
+## Optimize Online Sales 
+- Given the strong Online presence, investing in e-commerce marketing and partnerships can drive higher revenue.
+
+## Regional Promotions 
+-The West region is the highest revenue generator, making it ideal for new product launches and promotional campaigns.
+
+
+
